@@ -1,0 +1,12 @@
+John Miller, Harrison Wainwright
+
+Makefile, README, project4.cpp
+
+	This program is called project4. The program takes in a user input and reads the line of input. It can also take in a file with commands (testfile) and runs each line through the whole program. The program goes through a few steps to run each line of arguments. 
+
+	Once the input is recieve each argument that was entered is put into a vector of commands. The commands vector is then sent through a function called tokenize and reads each word in the commands vector and found the token of each one. This was then ran through an execute function that depending on the token exectued the command given. 
+
+	The execute function then calls other funcitons to execute each command that is given at the beginning of the users input. These are change directory, set, run, assignto, defprompt, and listprocs. Libraries used to write these funcitons include: 
+string, iostream, vector, stdio.h, algorithm, unistd.h, stdlib.h, wait.h, cstring, fcntl.h and fstream.
+
+	Limitation of the program is it does not run using a redirect input sish < testdata. It takes files in as a parameter when running but it does not take the redirect. The program must be ran by manually entering in each command line when prompted to. VI does not work when it is ran.
