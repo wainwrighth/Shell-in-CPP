@@ -1,4 +1,4 @@
-// Names: Harrison Wainwright and John Miller
+// Names: Harrison Wainwright
 // CS 485
 // 11/6/16
 // Project 4
